@@ -19,5 +19,3 @@ mongoose.connect('mongodb://localhost:27017/your_database_name')
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
-
-module.exports = app; // Export the app for testing purposes
